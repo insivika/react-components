@@ -1,6 +1,10 @@
 var App = () => (
   <div>
-    <h2>My Todo List</h2><AddItemInput/><AddItemButton />
+    <div className="header">
+    <h2>Get it done!</h2>
+
+    <AddItemInput/><AddItemButton />
+    </div>
     <TodoList todos={['Learn React', 'Crush Reactly', 'Maybe Sleep']}/>
 
   </div>
